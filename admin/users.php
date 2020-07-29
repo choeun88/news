@@ -65,7 +65,7 @@ session_start();
                             </form>
                         </div>
                         <div class="col-sm-4 col-xs-12">
-                        <img id="image_profile" style="width:260px;height:260px;margin-top:30px" src="uploads/profile.png" alt="Image Profile">
+                        <img id="image_profile" style="width:220px;height:220px;margin-top:10px" src="uploads/profile.png" alt="Image Profile">
                         </div>
                     </div>
                     <?php 
@@ -91,6 +91,26 @@ session_start();
                             echo '</table>';
                         }
                     ?>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="deletModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header bg-danger">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Warning</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Do you want to delete this?
+                        </div>
+                        <div class="modal-footer">
+                            <a type="button" class="btn btn-secondary btn_delete_yes" >Yes</a>
+                            <button type="button" data-dismiss="modal" class="btn btn-primary">No</button>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             
                 </div> <!-- content -->
