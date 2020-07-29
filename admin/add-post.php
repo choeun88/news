@@ -196,26 +196,26 @@ else{
                     <!-- jQuery  -->
             <script src="assets/js/jquery.min.js"></script>
             <script src="assets/js/bootstrap.min.js"></script>
-            <script src="assets/js/detect.js"></script>
-            <script src="assets/js/fastclick.js"></script>
-            <script src="assets/js/jquery.blockUI.js"></script>
-            <script src="assets/js/waves.js"></script>
-            <script src="assets/js/jquery.slimscroll.js"></script>
-            <script src="assets/js/jquery.scrollTo.min.js"></script>
-            <script src="../plugins/switchery/switchery.min.js"></script>
+            <script src="assets/js/detect.js"></script> <!--relate with sidebar detect sreen with-->
+            <script src="assets/js/fastclick.js"></script> <!--relate with sidebar-->
+            <!-- <script src="assets/js/jquery.blockUI.js"></script> -->
+            <!-- <script src="assets/js/waves.js"></script> -->
+            <script src="assets/js/jquery.slimscroll.js"></script> <!--relate with sidebar-->
+            <!-- <script src="assets/js/jquery.scrollTo.min.js"></script> -->
+            <!-- <script src="../plugins/switchery/switchery.min.js"></script> -->
 
             <!--Summernote js-->
-            <script src="../plugins/summernote/summernote.min.js"></script>
+            <!-- <script src="../plugins/summernote/summernote.min.js"></script> -->
             <!-- Select 2 -->
-            <script src="../plugins/select2/js/select2.min.js"></script>
+            <!-- <script src="../plugins/select2/js/select2.min.js"></script> -->
             <!-- Jquery filer js -->
-            <script src="../plugins/jquery.filer/js/jquery.filer.min.js"></script>
+            <!-- <script src="../plugins/jquery.filer/js/jquery.filer.min.js"></script> -->
 
             <!-- page specific js -->
-            <script src="assets/pages/jquery.blog-add.init.js"></script>
+            <!-- <script src="assets/pages/jquery.blog-add.init.js"></script> -->
 
             <!-- App js -->
-            <script src="assets/js/jquery.core.js"></script>
+            <!-- <script src="assets/js/jquery.core.js"></script> -->
             <script src="assets/js/sidebar.js"></script>
             <script>
                 jQuery(document).ready(function(){
@@ -227,14 +227,14 @@ else{
                         focus: false                 // set focus to editable area after initializing summernote
                     });
                     // Select2
-                    $(".select2").select2();
+                    // $(".select2").select2();
 
-                    $(".select2-limiting").select2({
-                        maximumSelectionLength: 2
-                    });
+                    // $(".select2-limiting").select2({
+                    //     maximumSelectionLength: 2
+                    // });
                 });
             </script>
-            <script src="../plugins/switchery/switchery.min.js"></script>
+            <!-- <script src="../plugins/switchery/switchery.min.js"></script> -->
             <!--Summernote js-->
             <script src="../plugins/summernote/summernote.min.js"></script>
         </body>
