@@ -30,37 +30,7 @@ $error="Something went wrong . Please try again.";
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
-        <meta name="author" content="Coderthemes">
-
-        <!-- App favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
-        <!-- App title -->
-        <title>Newsportal | Add Post</title>
-
-        <!-- Summernote css -->
-        <link href="../plugins/summernote/summernote.css" rel="stylesheet" />
-
-        <!-- Select2 -->
-        <link href="../plugins/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
-
-        <!-- Jquery filer css -->
-        <link href="../plugins/jquery.filer/css/jquery.filer.css" rel="stylesheet" />
-        <link href="../plugins/jquery.filer/css/themes/jquery.filer-dragdropbox-theme.css" rel="stylesheet" />
-
-        <!-- App css -->
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/core.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/components.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/pages.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/menu.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
-		<link rel="stylesheet" href="../plugins/switchery/switchery.min.css">
-        <script src="assets/js/modernizr.min.js"></script>
+<?php include('includes/header.php');?>
  <script>
 function getSubCat(val) {
   $.ajax({
@@ -73,7 +43,7 @@ function getSubCat(val) {
   });
   }
   </script>
-    </head>
+  
 
 
     <body class="fixed-left">
@@ -230,58 +200,6 @@ while($result=mysqli_fetch_array($ret))
         <!-- END wrapper -->
 
 
-
-        <script>
-            var resizefunc = [];
-        </script>
-
-        <!-- jQuery  -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/detect.js"></script>
-        <script src="assets/js/fastclick.js"></script>
-        <script src="assets/js/jquery.blockUI.js"></script>
-        <script src="assets/js/waves.js"></script>
-        <script src="assets/js/jquery.slimscroll.js"></script>
-        <script src="assets/js/jquery.scrollTo.min.js"></script>
-        <script src="../plugins/switchery/switchery.min.js"></script>
-
-        <!--Summernote js-->
-        <script src="../plugins/summernote/summernote.min.js"></script>
-        <!-- Select 2 -->
-        <script src="../plugins/select2/js/select2.min.js"></script>
-        <!-- Jquery filer js -->
-        <script src="../plugins/jquery.filer/js/jquery.filer.min.js"></script>
-
-        <!-- page specific js -->
-        <script src="assets/pages/jquery.blog-add.init.js"></script>
-
-        <!-- App js -->
-        <script src="assets/js/jquery.core.js"></script>
-        <script src="assets/js/sidebar.js"></script>
-
-        <script>
-
-            jQuery(document).ready(function(){
-
-                $('.summernote').summernote({
-                    height: 240,                 // set editor height
-                    minHeight: null,             // set minimum height of editor
-                    maxHeight: null,             // set maximum height of editor
-                    focus: false                 // set focus to editable area after initializing summernote
-                });
-                // Select2
-                $(".select2").select2();
-
-                $(".select2-limiting").select2({
-                    maximumSelectionLength: 2
-                });
-            });
-        </script>
-  <script src="../plugins/switchery/switchery.min.js"></script>
-
-        <!--Summernote js-->
-        <script src="../plugins/summernote/summernote.min.js"></script>
 
 
 
