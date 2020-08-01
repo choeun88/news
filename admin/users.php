@@ -7,9 +7,7 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php include('includes/header.php');?>
-
-
+    <?php include('includes/header.php');?>
     <body class="fixed-left">
         <div id="wrapper">
             <!-- Top Bar Start -->
