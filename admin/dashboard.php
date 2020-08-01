@@ -16,14 +16,14 @@ session_start();
             <div class="content-page">
                 <!-- Start content -->
                 <div class="content">
-                    <div class="container">
+                    <div class="container-fluid p-4">
                         <div class="row">
 							<div class="col-xs-12">
 								<div class="page-title-box">
                                     <h4 class="page-title">Dashboard</h4>
                                     <ol class="breadcrumb p-0 m-0">
                                         <li>
-                                            <a href="#">NewsPortal</a>
+                                            <a href="#">News</a>
                                         </li>
                                         <li>
                                             <a href="#">Admin</a>
@@ -37,10 +37,10 @@ session_start();
 							</div>
 						</div>
                         <!-- end row -->
-                        <div class="row">
-                            <a href="manage-categories.php">
-                                <div class="col-lg-4 col-md-4 col-sm-6">
-                                    <div class="card-box widget-box-one">
+                        <div class="row dashboard">
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <a href="manage-categories.php">
+                                    <div class="card text-center">
                                         <i class="mdi mdi-chart-areaspline widget-one-icon"></i>
                                         <div class="wigdet-one-content">
                                             <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="Statistics">Categories Listed</p>
@@ -52,11 +52,11 @@ session_start();
                                         
                                         </div>
                                     </div>
-                                </div>
-                            </a><!-- end col -->
-                            <a href="manage-subcategories.php">
-                                <div class="col-lg-4 col-md-4 col-sm-6">
-                                    <div class="card-box widget-box-one">
+                                </a><!-- end col -->
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <a href="manage-subcategories.php">
+                                    <div class="card text-center">
                                         <i class="mdi mdi-layers widget-one-icon"></i>
                                         <div class="wigdet-one-content">
                                             <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="User This Month">Listed Subcategories</p>
@@ -66,11 +66,11 @@ session_start();
                                             <h2><?php echo htmlentities($countsubcat);?> <small></small></h2>
                                         </div>
                                     </div>
-                                </div><!-- end col -->
-                            </a>
-                            <a href="manage-posts.php">                       
-                                <div class="col-lg-4 col-md-4 col-sm-6">
-                                    <div class="card-box widget-box-one">
+                                </a>
+                            </div><!-- end col -->
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <a href="manage-posts.php">   
+                                    <div class="card text-center">
                                         <i class="mdi mdi-layers widget-one-icon"></i>
                                         <div class="wigdet-one-content">
                                             <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="User This Month">Live News</p>
@@ -81,14 +81,11 @@ session_start();
                                 
                                         </div>
                                     </div>
-                                </div><!-- end col -->
-                            </a>
-                        </div>
-                        <!-- end row -->
-                        <div class="row">
-                            <a href="trash-posts.php"> 
-                                <div class="col-lg-4 col-md-4 col-sm-6">
-                                    <div class="card-box widget-box-one">
+                                </a>
+                            </div><!-- end col -->
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <a href="trash-posts.php"> 
+                                    <div class="card text-center">
                                         <i class="mdi mdi-layers widget-one-icon"></i>
                                         <div class="wigdet-one-content">
                                             <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="User This Month">Trash News</p>
@@ -99,9 +96,11 @@ session_start();
                                 
                                         </div>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
+                            
                         </div>
+                    
                     </div> <!-- container -->
                 </div> <!-- content -->
                 <?php include('includes/footer.php');?>

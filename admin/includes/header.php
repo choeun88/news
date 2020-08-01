@@ -5,7 +5,7 @@
         <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/menu.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
-        <link href="../plugins/summernote/summernote.min.css" rel="stylesheet" />
         <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+        <link href="../plugins/summernote/summernote.min.css" rel="stylesheet" />
 
 </head>
