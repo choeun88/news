@@ -33,7 +33,7 @@ include('includes/config.php');
     <div class="container">
 
 
-     
+     <h1>Hello</h1>
       <div class="row" style="margin-top: 4%">
 
         <!-- Blog Entries Column -->
